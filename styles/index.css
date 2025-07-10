@@ -109,3 +109,53 @@
     height: 328px;
     border-radius: 48px;
 }
+/* third-section */
+.third-section {
+  max-width: 1140px;
+  margin: 50px auto;
+  padding: 50px 20px;
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.dada {
+  max-width: 856px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.dada h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 40px;
+  font-family: Raleway;
+}
+
+.parent-div {
+  display: flex;
+  justify-content: center;
+  gap: 190px;
+  
+}
+
+.child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 150px;
+}
+
+.child h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #4E47FF;
+}
+
+.child p {
+  margin-top: 5px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
